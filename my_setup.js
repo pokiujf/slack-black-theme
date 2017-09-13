@@ -8,15 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
      const cssPath = 'https://raw.githubusercontent.com/pokiujf/slack-black-theme/master/custom.css';
      let cssPromise = fetch(cssPath).then(response => response.text());
 
-     let customCustomCSS = `
-     :root {
-        /* Modify these to change your theme colors: */
-        --primary: #111;
-        --text: #111;
-        --background: #987;
-        --background-elevated: #876
-     }
-     `
+     let customCustomCSS = ``;
 
      // Insert a style tag into the wrapper view
      cssPromise.then(css => {
