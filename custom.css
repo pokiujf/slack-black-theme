@@ -41,11 +41,11 @@ h1, h2, h3, h4 {
 }
 
 /* left scrollbar */
-.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
-   background-color: var(--background) !important;
-   box-shadow: var(--background) 1px 1px 25px;
-   z-index: 1;
-}
+/*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
+   /*background-color: var(--background) !important;*/
+   /*box-shadow: var(--background) 1px 1px 25px;*/
+   /*z-index: 1;*/
+/*}*/
 
 .TeamSidebarItem.unreads .TeamSidebarItem-indicator {
    background-color: var(--border-bright) !important;
