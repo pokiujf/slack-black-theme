@@ -20,6 +20,7 @@ limitations under the License.
   --text: #111;
   --background: #987;
   --background-elevated: #876;
+  --text-mid: #555;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -36,16 +37,59 @@ limitations under the License.
    --scrollbar-border: var(--primary);
 }
 
-h1, h2, h3, h4 {
-  color: var(--text);
-}
-
 /* left scrollbar */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
    /*background-color: var(--background) !important;*/
    /*box-shadow: var(--background) 1px 1px 25px;*/
    /*z-index: 1;*/
 /*}*/
+
+#channel_topic_text {
+  background: var(--background);
+}
+
+.feature_name_tagging_client #edit_topic_inner:before {
+  /*background-color: #ff00aa;*/
+  border: 1px solid var(--text-mid);
+}
+
+.rxn .emoji_rxn_count,
+.feature_name_tagging_client .internal_member_link {
+  background: var(--background-elevated);
+  color: var(--text);
+  font-weight: bold;
+}
+
+button.channel_header_icon,
+.channel_header_icon ts-icon,
+.channel_header_info button,
+.channel_topic_text,
+.channel_header_info,
+.channel_header_icon,
+.channel_header_info .channel_header_icon {
+  color: var(--text-mid) !important;
+}
+
+.channels_list_holder ul li a.channel_name,
+.channels_list_holder ul li:not(.unread) .group_name,
+.channels_list_holder ul li .im_name,
+.channels_list_holder ul li .mpim_name,
+.channels_list_holder ul li>a:link,
+ts-message.automated .message_body,
+ts-message .bot_label,
+ts-message a.timestamp{
+  color: var(--text-mid) !important;
+}
+
+.btn {
+  background: #2ab27b;
+}
+
+/* ------------------------- */
+
+h1, h2, h3, h4 {
+  color: var(--text);
+}
 
 .TeamSidebarItem.unreads .TeamSidebarItem-indicator {
    background-color: var(--border-bright) !important;
@@ -173,9 +217,12 @@ ts-message .action_hover_container .btn_msg_action,
 .search_result_with_extract,
 #search_filters a,
 .menu,
-.menu #menu_items_scroller,
-.btn, .btn_outline {
+.menu #menu_items_scroller, .btn_outline {
   background: var(--background-elevated) !important;
+}
+
+.btn {
+  background: #2ab27b;
 }
 
 pre,
@@ -299,14 +346,6 @@ a:hover{
   color: var(--text);
 }
 
-.channels_list_holder ul li a.channel_name,
-.channels_list_holder ul li:not(.unread) .group_name,
-.channels_list_holder ul li .im_name,
-.channels_list_holder ul li .mpim_name,
-.channels_list_holder ul li>a:link,
-ts-message a.timestamp{
-  color: #aaa !important;
-}
 #channels_scroller.show_which_channel_is_active ul li.active .im_name{
   color: #fff !important;
 }
