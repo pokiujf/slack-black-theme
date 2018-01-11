@@ -88,6 +88,12 @@ ts-message a.timestamp{
 div.c-message.c-message--light.c-message--hover {
   background-color: var(--background-hover) !important;
 }
+div.c-message_list__day_divider__label__pill {
+  color: var(--text) !important;
+  background-color: var(--background-elevated) !important;
+  border: 2px solid var(--text) !important;
+}
+
 /* ------------------------- */
 
 h1, h2, h3, h4 {
