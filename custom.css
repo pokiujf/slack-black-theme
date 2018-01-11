@@ -85,6 +85,9 @@ ts-message a.timestamp{
   background: #2ab27b;
 }
 
+div.c-message.c-message--light.c-message--hover {
+  background-color: var(--background-hover) !important;
+}
 /* ------------------------- */
 
 h1, h2, h3, h4 {
