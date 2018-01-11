@@ -97,6 +97,9 @@ div.c-message_list__day_divider__label__pill {
 hr.c-message_list__day_divider__line {
   border-top: 1px solid var(--background-elevated) !important;
 }
+span.c-timestamp__label {
+  color: var(--text-mid) !important;
+}
 /* ------------------------- */
 
 h1, h2, h3, h4 {
