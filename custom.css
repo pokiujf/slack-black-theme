@@ -103,6 +103,7 @@ span.c-timestamp__label {
 }
 .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
   background-color: var(--background) !important;
+  border-bottom: 1px solid var(--background-elevated) !important;
 }
 /* ------------------------- */
 
