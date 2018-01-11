@@ -101,6 +101,9 @@ hr.c-message_list__day_divider__line {
 span.c-timestamp__label {
   color: var(--text-mid) !important;
 }
+.c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
+  background-color: var(--background);
+}
 /* ------------------------- */
 
 h1, h2, h3, h4 {
