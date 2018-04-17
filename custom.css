@@ -30,7 +30,7 @@ limitations under the License.
   --border-dim: #666;
   --border-bright: var(--primary);
 
-  --text-bright: #FFF;
+  --text-bright: #dcb;
   --text-special: var(--primary);
 
   --scrollbar-background: #000;
@@ -66,7 +66,9 @@ button.channel_header_icon,
 .channel_topic_text,
 .channel_header_info,
 .channel_header_icon,
-.channel_header_info .channel_header_icon {
+.channel_header_info .channel_header_icon,
+.close_flexpane,
+.thread_participants {
   color: var(--text-mid) !important;
 }
 
@@ -138,6 +140,10 @@ div.p-message_pane__foreword__description span {
 .client_channels_list_container {
   margin-right: -1px;
   z-index: 203;
+}
+
+.search_form {
+  border: 1px solid var(--text-mid);
 }
 
 /* ------------------------- */
