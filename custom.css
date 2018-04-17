@@ -135,6 +135,11 @@ div.p-message_pane__foreword__description span {
   color: var(--text) !important;
 }
 
+.client_channels_list_container {
+  margin-right: -1px;
+  z-index: 203;
+}
+
 /* ------------------------- */
 
 h1, h2, h3, h4 {
