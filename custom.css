@@ -124,10 +124,6 @@ div.c-virtual_list__scroll_container,
   background-color: var(--background) !important;
 }
 
-/*div.c-message__content:hover {*/
-  /*background-color: var(--background) !important;*/
-/*}*/
-
 div.c-message:hover {
   background-color: var(--background) !important;
 }
