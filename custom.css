@@ -121,9 +121,9 @@ div.c-virtual_list__scroll_container {
   z-index: 0;
 }
 
-div.c-message__content:hover {
-  background-color: var(--background) !important;
-}
+/*div.c-message__content:hover {*/
+  /*background-color: var(--background) !important;*/
+/*}*/
 
 div.c-message:hover {
   background-color: var(--background) !important;
@@ -133,7 +133,7 @@ span.c-message__body,
 a.c-message__sender_link,
 span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
 div.p-message_pane__foreword__description span {
-  color: var(--background-elevated) !important;
+  color: var(--text) !important;
 }
 
 /* ------------------------- */
