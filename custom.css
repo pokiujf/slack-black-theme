@@ -113,7 +113,7 @@ span.c-timestamp__label {
 
 /* -------fixes for 3.1.1--------*/
 div.c-virtual_list__scroll_container {
-  background-color: black !important;
+  background-color: var(--background) !important;
 }
 
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
