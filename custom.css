@@ -87,6 +87,17 @@ ts-message a.timestamp {
   background: #2ab27b;
 }
 
+/* ------- */
+.p-flexpane_header {
+  background: var(--background-elevated);
+}
+.flex_pane_showing #col_flex {
+  border-left: 1px solid var(--border-dim)
+}
+.p-downloads__clear_all {
+  border-right: 1px solid var(--border-dim);
+}
+
 /* ----fixes after update--- */
 div.c-message.c-message--light.c-message--hover {
   background-color: var(--background-hover) !important;
