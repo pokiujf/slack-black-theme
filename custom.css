@@ -98,6 +98,22 @@ ts-message a.timestamp {
   border-right: 1px solid var(--border-dim);
 }
 
+.p-threads_view__default_background,
+.p-threads_footer__input,
+.p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button {
+  background: var(--background);
+}
+
+.p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+  background: var(--background-elevated);
+  border-left: 1px solid var(--border-dim);
+  border-right: 1px solid var(--border-dim);
+}
+
+.p-threads_view_reply, .p-threads_view__footer, .p-threads_view_root {
+  border: 1px solid var(--border-dim);
+}
+
 /* ----fixes after update--- */
 div.c-message.c-message--light.c-message--hover {
   background-color: var(--background-hover) !important;
