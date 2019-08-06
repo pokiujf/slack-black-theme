@@ -127,7 +127,7 @@ span.c-timestamp__label {
 .p-classic_nav__drag,
 .p-workspace--classic-nav .p-workspace__primary_view_footer,
 .p-workspace__input .p-message_input_field.focus {
-  color: var(--background)
+  background-color: var(--background)
 }
 
 /*-------*/
