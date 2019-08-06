@@ -122,16 +122,6 @@ span.c-timestamp__label {
   border-bottom: 1px solid var(--background-elevated) !important;
 }
 
-/* ------------------------- */
-
-.p-classic_nav__drag,
-.p-workspace--classic-nav .p-workspace__primary_view_footer,
-.p-workspace__input .p-message_input_field.focus {
-  background-color: var(--background)
-}
-
-/*-------*/
-
 /* -------fixes for 3.1.1--------*/
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
@@ -163,6 +153,14 @@ div.p-message_pane__foreword__description span {
 
 .search_form {
   border: 1px solid var(--text-mid);
+}
+
+/*-------*/
+
+.p-classic_nav__drag,
+.p-workspace--classic-nav .p-workspace__primary_view_footer,
+.p-workspace__input .p-message_input_field.focus {
+  background-color: var(--background)
 }
 
 /* ------------------------- */
