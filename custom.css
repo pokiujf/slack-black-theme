@@ -124,6 +124,14 @@ span.c-timestamp__label {
 
 /* ------------------------- */
 
+.p-classic_nav__drag,
+.p-workspace--classic-nav .p-workspace__primary_view_footer,
+.p-workspace__input .p-message_input_field.focus {
+  color: var(--background)
+}
+
+/*-------*/
+
 /* -------fixes for 3.1.1--------*/
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
@@ -228,7 +236,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 textarea, input[type="text"], #file_comment_textarea {
-  background-color: var(--background) !important;
+  /*background-color: var(--background) !important;*/
   border-color: var(--border-dim) !important;
   color: var(--text) !important;
 }
