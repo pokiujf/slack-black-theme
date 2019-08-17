@@ -161,13 +161,24 @@ div.p-message_pane__foreword__description span {
 .p-workspace--classic-nav .p-workspace__primary_view_footer,
 .p-workspace__input .p-message_input_field, .p-message_input_field.focus,
 .workspace__primary_view_footer, .p-threads_flexpane_container,
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread,
 .c-message__reply_bar:hover, .p-threads_footer__input .p-message_input_field {
   background-color: var(--background) !important;
 }
 
-.c-message__reply_bar, .c-message_actions__button,
-.c-message__reply_bar:hover .c-message__reply_bar_view_thread {
+.p-workspace__input .p-message_input_field {
+  border-color: rgb(97, 96, 97) !important;
+}
+.c-message__reply_bar, .c-message_actions__button {
   background-color: var(--background-elevated) !important;
+  color: var(--text-mid) !important;
+}
+
+.c-message__reply_bar_description {
+  color: var(--text-special);
+}
+
+{
 }
 
 .c-message_actions__container:hover,
