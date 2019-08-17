@@ -159,10 +159,19 @@ div.p-message_pane__foreword__description span {
 
 .p-classic_nav__drag,
 .p-workspace--classic-nav .p-workspace__primary_view_footer,
-.p-workspace__input .p-message_input_field.focus {
-  background-color: var(--background)
+.p-workspace__input .p-message_input_field, .p-message_input_field.focus,
+.workspace__primary_view_footer, .p-threads_flexpane_container,
+.c-message__reply_bar:hover {
+  background-color: var(--background) !important;
 }
 
+.c-message__reply_bar, .c-message_actions__button {
+  background-color: var(--background-elevated) !important;
+}
+
+.c-message_actions__container:hover {
+  border: none !important;
+}
 /* ------------------------- */
 
 h1, h2, h3, h4 {
