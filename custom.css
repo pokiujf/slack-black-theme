@@ -161,16 +161,29 @@ div.p-message_pane__foreword__description span {
 .p-workspace--classic-nav .p-workspace__primary_view_footer,
 .p-workspace__input .p-message_input_field, .p-message_input_field.focus,
 .workspace__primary_view_footer, .p-threads_flexpane_container,
-.c-message__reply_bar:hover {
+.c-message__reply_bar:hover, .p-threads_footer__input .p-message_input_field {
   background-color: var(--background) !important;
 }
 
-.c-message__reply_bar, .c-message_actions__button {
+.c-message__reply_bar, .c-message_actions__button,
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread {
   background-color: var(--background-elevated) !important;
 }
 
-.c-message_actions__container:hover {
+.c-message_actions__container:hover,
+.c-message_actions__container {
   border: none !important;
+}
+
+.c-icon_button--light.c-button-unstyled:hover, .c-icon_button--light:hover,
+.c-icon_button--light:link:hover {
+  background: var(--background-hover) !important;
+}
+
+.c-texty_input__button,
+.p-threads_footer__input .p-message_input_file_button .p-message_input_file_icon,
+.p-workspace__input .p-message_input_file_button .p-message_input_file_icon {
+  color: var(--text-mid) !important;
 }
 /* ------------------------- */
 
